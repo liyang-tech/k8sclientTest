@@ -21,12 +21,16 @@ public class K8sClientTest {
 
     @Test
     public void createServiceTest() {
-        String kubeConfigPath = "config";
-        if (!new File(kubeConfigPath).exists()) {
-            System.out.println("kubeConfig不存在，跳过");
-            return;
-        }
-        K8sClient k8sClient = new K8sClient(kubeConfigPath);
+
+            JSONObject newj = new JSONObject();
+            System.out.println(newj);
+
+//        String kubeConfigPath = "config";
+//        if (!new File(kubeConfigPath).exists()) {
+//            System.out.println("kubeConfig不存在，跳过");
+//            return;
+//        }
+//        K8sClient k8sClient = new K8sClient(kubeConfigPath);
 
 
 //        String namespace = "default";
@@ -42,9 +46,8 @@ public class K8sClientTest {
     }
 
 
-//    String jar1001 = "E:\\workspace\\k8sclientTest\\lib2";
+//    String jar1001 = "E:\\workspace\\k8sclientTest\\lib1";
 //    String jar1200 = "E:\\workspace\\k8sclientTest\\lib2";
-//    String jar12000 = "E:\\workspace\\k8sclientTest\\libs2";
 //
 //    @Test
 //    public void clientByAnyVersion() throws Exception {
