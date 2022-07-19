@@ -1,13 +1,11 @@
 package com.k8sclient.demo.service;
 
+import com.alibaba.fastjson.JSONObject;
 import com.k8sclient.demo.DemoApplication;
-import com.k8sclient.demo.utils.K8sClient;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import java.io.File;
 
 /**
  * @author liyang(leonasli)
